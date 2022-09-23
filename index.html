@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>     
+        <script src="js/script.js"></script>
+        <link rel="stylesheet" href="css/style.css"> 
+    </head>
+    <body>
+        <div class="main">
+            <form action="" method="post" id="signup" autocomplete="off">
+            	<h2>Sign-Up Form</h2>
+            	<p>
+               	    <label for="fname">First Name</label><br>
+                    <input type="text" name="fname" id="fname">
+                </p>
+                <p>
+                    <label for="lname">Last Name</label><br>
+                    <input type="text" name="lname" id="lname">
+                </p>
+                <p>
+                   <div class="gen">
+                       <label for="gender">Gender</label><br>
+                       <div class="gender">
+                          <input type="radio" name="gender">
+                          <label for="male">Male</label>
+                          <input type="radio" name="gender">
+                          <label for="female">Female</label>
+                       </div>
+                   </div>
+                </p>
+                <p>
+                    <label for="email">Email</label><br>
+                    <input type="email" name="email" id="email">
+                </p>
+                <p>
+                    <label for="password">Password</label><br>
+                    <input type="password" name="password" id="password">
+                </p>
+                <p>
+                    <label for="number">Phone No.</label><br>
+                    <input type="number" name="number" id="number">
+                </p>
+                <p>
+                    <label for="lang">Language<label><br>
+                    <select id="lang" name="lang">
+                        <option><!----></option>
+                        <option>English</option>
+                        <option>Malayalam</option>
+                        <option>HIndi</option>
+                        <option>Tamil</option>
+                        <option>Urudu</option>
+                        <option>Others</option>
+                    </select>
+                </p>
+                <p>
+                    <input type="checkbox" name="agree" id="agree">
+                    <label for="agree">Please agree for continue</label>
+                </p>
+                <p>
+                    <input type="submit" name="submit" value="submit">
+                </p>
+             </form>
+        </div>
+     </body>
+</html>
