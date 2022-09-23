@@ -77,14 +77,14 @@ input[type=radio], input[type=checkbox]{
 
 input[type=submit]{
    width:100%;
-   background-color:violet;
+   background-color:mediumorchid;
    color:white;
    font-size:18px;
    border:transparent;
 }
 
 input[type=submit]:hover{
-  background-color:orchid;
+  background-color:blueviolet;
 }
 
 #lang{
