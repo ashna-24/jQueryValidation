@@ -1,0 +1,95 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+.main{
+  margin:20px 535px;
+  border-top: 2px;
+  border-left: 2px;
+  border-bottom:2px;
+  border-right: 2px;
+  border-radius: 8px;
+  width:420px;
+  padding:30px;
+  border: transparent;
+  background-color: rgba(109, 101, 101, 0.3);
+  box-shadow: 0 0 15px rgb(97, 95, 95);
+  color: rgb(0, 0, 0);
+}
+
+h2{
+  text-align:center;
+  font-size:30px;
+  margin-bottom:20px;
+}
+
+
+p{
+  margin-bottom:15px;
+}
+
+p.note{
+  font-size:1rem;
+  color: red;
+}
+
+label{
+  font-size:18px;
+}
+
+label.error{
+  color: red;
+  font-size:1rem;
+  display:block;
+  margin-top:5px;
+}
+  
+input{
+   padding: 5px;
+   margin-top:10px;
+   border-radius: 5px;
+   border:transparent;
+   background-color: rgb(231, 226, 220);
+}
+
+select{
+   margin-top:10px;
+}
+
+input.error, select.error{
+   border:1px solid red;
+  
+}
+
+input[type=text], input[type=email], input[type=password], input[type=number]{
+   width:96%;
+}
+
+input[type=radio], input[type=checkbox]{
+  accent-color: rgb(12, 64, 236);
+}
+
+input[type=submit]{
+   width:100%;
+   background-color:mediumorchid;
+   color:white;
+   font-size:18px;
+   border:transparent;
+}
+
+input[type=submit]:hover{
+  background-color:blueviolet;
+}
+
+#lang{
+   padding:5px;
+   width:100%;
+   border-radius: 5px;
+   background-color: rgb(231, 226, 220);
+} 
